@@ -1,0 +1,97 @@
+/*
+    Colors Using in this project:
+    Plump purple: #52489C
+    True Blue: #4062BB
+    Maximum Blue Green: #59C3C3
+    Platinum: #EBEBEB
+    Fiery Rose: #F45B69
+
+*/
+body{
+    color: rgba(0, 0, 0, 0.658);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 300px;
+}
+a{
+    color: darkgreen;
+    text-decoration: none;
+    margin: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+h2{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+header{
+    background: url('../images/header_background.jpg');
+    font-family: 'Caveat', cursive;
+    height: 20em;
+    text-align: center;
+    background-size: cover;
+    color: rgba(31, 31, 31, 0.733);
+    padding-top: 13%;
+}
+header img{
+    width: 145px;
+    height: 175px;
+    padding: 3px;
+    border-radius: 50%;
+    margin-top: -8em;
+}
+header h1{
+    font-size: 4.5em;
+    margin: 0;
+}
+header h2{
+    margin-top: -.5em;
+    margin-bottom: .5em;
+    font-size: 2.4em;
+}
+header p{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.projects{
+    background: #52489C;
+    color: #EBEBEB;
+    font-family: 'Montserrat', sans-serif;
+}
+.education{
+    background-image: url('../images/education_background1.jpg' );
+    color: #EBEBEB;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: #ff8b94;
+    min-height: 100px;
+    overflow: hidden;
+}
+footer h2{
+    font-size: 2.5em;
+    margin: 0;
+}
+.content-wrap ul{
+    padding: 0;
+}
+.content-wrap ul li{
+    display: inline;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 2em;
+}
