@@ -7,8 +7,17 @@
     Fiery Rose: #F45B69
 
 */
+/*-------------------------------Global styles-----------------------*/
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
 body{
     color: rgba(0, 0, 0, 0.658);
+    box-sizing: border-box;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -20,6 +29,9 @@ a{
     color: darkgreen;
     text-decoration: none;
     margin: 0;
+}
+a:focus{
+    border: none;
 }
 a:hover{
     text-decoration: none;
@@ -34,6 +46,7 @@ p{
     width: 800px;
     margin: 0 auto;
     padding: 30px 0;
+    height: 100%;
 }
 h1, h2,h3,h4,h5,h6{
     font-family: 'Caveat', cursive;
@@ -41,20 +54,18 @@ h1, h2,h3,h4,h5,h6{
 p{
     font-family: 'Montserrat', sans-serif;
 }
+/*---------------header--------------*/
 header{
     background: url('../images/header_background.jpg');
-    /* height: 20em; */
     text-align: center;
     background-size: cover;
     color: rgba(31, 31, 31, 0.733);
-    padding-top: 13%;
+    height: 27rem;
 }
 header img{
     width: 145px;
     height: 175px;
-    padding: 3px;
     border-radius: 50%;
-    margin-top: -9em;
 }
 header h1{
     font-size: 4.5em;
@@ -71,10 +82,43 @@ header p{
     font-weight: bold;
     line-height: 25px;
 }
+/*--------------------Projects------------------*/
 .projects{
     background: #52489C;
     color: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #EBEBEB;
+    padding: 25px 0;
+}
+.project-item img{
+    float: left;
+    margin-left: 10px;
+    margin-right: 1em;
+    width: 25%;
+    border: 3px solid forestgreen;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px #EBEBEB;
+}
+.project-item a, a:visited{
+    font-size: .85em;
+    font-weight: bold;
+    color: indigo;
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    padding: .75em;
+    float: right;
+    margin-top: 10px;
+    margin-right: 33%;
+}
+#project-image-2{
+    width: 45%;
+}
+.projects h2{
+    border-bottom: 1px dashed #EBEBEB;
+    padding: 25px 0;
 }
 .projects h2,h3{
     text-shadow: 2px 2px 2px black;
@@ -89,15 +133,20 @@ header p{
 .projects p{
     line-height: 25px;
 }
+.last-project{
+    border: none;
+}
+/*----------------------------------Education--------------------------------------*/
 .education{
     background-image: url('../images/education_background.jpg' );
     color: #EBEBEB;
     text-shadow: 2px 2px 2px black;
+    clear: both;
 }
-
 .education section{
     padding: 1em;
 }
+/*---------------------------------Footer-----------------------------------------*/
 footer{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -106,7 +155,7 @@ footer{
     overflow: hidden;
 }
 footer h2{
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: bold;
     text-shadow: 2px 2px 2px #EBEBEB;
     margin-bottom: .5em;
@@ -120,4 +169,9 @@ footer h2{
     text-align: center;
     padding-left: 2em;
     padding-right: 2em;
+}
+.content-wrap ul li a{
+    color: darkgreen;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #EBEBEB;
 }
