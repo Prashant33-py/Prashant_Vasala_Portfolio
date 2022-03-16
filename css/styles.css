@@ -18,7 +18,7 @@ html{
 body{
     color: rgba(0, 0, 0, 0.658);
     box-sizing: border-box;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5;
     margin: 0;
@@ -148,9 +148,6 @@ header p{
 #project-image-2{
     width: 65%;
 }
-.last-project{
-    border: none;
-}
 .btn{
     color: #EBEBEB;
     width: 45%;
@@ -169,7 +166,6 @@ header p{
     text-decoration: none;
     padding: .5em;
     border-radius: 3px;
-    display: grid; 
 }
 /*----------------------------------Education--------------------------------------*/
 .education{
@@ -239,7 +235,7 @@ footer h2{
     }
     .btn{
         color: #EBEBEB;
-        width: 45%;
+        width: 30%;
         text-align: center;
         background: indigo;
         text-decoration: none;
